@@ -9,3 +9,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
+
+int		str_subkey 		(const char *string,
+					const char *key,
+					char ***substrings);
